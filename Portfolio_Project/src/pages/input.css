@@ -42,26 +42,29 @@
 }
 
 
-/* ============= resume =============*/
-.skill-pill {
-  @apply bg-black text-white text-sm px-4 py-2 rounded-full text-center;
+/* =============  =============*/
+
+
+/* ============= Grid =============*/
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3,min-content);
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-sta] 1fr [center-start] repeat(8, [col-start] minmax(min-content,14rem)[col-end]) [center-end] 1fr [full-end];
 }
 
-/* ============= stars =============*/
-@keyframes float {
-  0% {
-    transform: translateY(0) rotate(var(--rotate, 0deg));
-  }
-  50% {
-    transform: translateY(-10px) rotate(var(--rotate, 0deg));
-  }
-  100% {
-    transform: translateY(0) rotate(var(--rotate, 0deg));
-  }
+.sidebar {
+  grid-column: sidebar-start / sidebar-end;
+  grid-row: 1 / -1;
 }
 
-.star {
-  animation: float 4s ease-in-out infinite;
+.projects {
+  grid-column: center-start / center-end;
 }
 
+.headr {
+  grid-column: full-start / col-end 6;
+}
 
+.three_projects {
+  grid-column: col-start 7 / full-end;
+}

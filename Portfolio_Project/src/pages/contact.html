@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- FONTS-->
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tenor+Sans&display=swap" rel="stylesheet">
+  <!-- ICONS -->
+  <script src="https://kit.fontawesome.com/f2d7ca86d1.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-['Open_Sans']">
+    <!-- ============ NAV BAR =========== -->
+    <header>
+        <nav class="nav flex flex-col md:flex-row items-center justify-between px-4 md:px-8 py-4 bg-black gap-4">
+
+            <!-- Left: Name -->
+            <div class="nav__brand text-white wave-text text-xl font-['Bodoni_Moda']"><a href="index.html">MARILYN CASTRO</a></div>
+
+            <!-- Right: Nav Links-->
+            <ul class="nav__list flex flex-col md:flex-row gap-3 md:gap-4
+           border border-white rounded-xl md:rounded-full
+           px-4 py-3 md:px-6 md:py-2 text-center">
+
+                <li class="nav__item"><a href="about.html" class="nav__link text-white wave-text rounded">ABOUT ME</a></li>
+                <li class="nav__item"><a href="reflection.html" class="nav__link text-white wave-text">RELECTIONS</a></li>
+                <li class="nav__item"><a href="developments.html" class="nav__link text-white wave-text">DEVELOPMENTS</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link bg-white text-black px-2  rounded-full font-semibold wave-text">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16">
+  
+  <!-- Header -->
+  <section class="text-center mb-12">
+    <h1 class="text-4xl md:text-5xl font-semibold mb-4 font-['Bodoni_Moda']">
+      Get in Touch
+    </h1>
+    <p class="text-gray-600 max-w-xl mx-auto">
+      Whether you have a question, opportunity, or just want to say hello,
+      I’d love to hear from you.
+    </p>
+  </section>
+
+  <!-- Form Card -->
+  <section class="max-w-xl mx-auto bg-white rounded-2xl shadow-lg p-8">
+    <form class="space-y-5">
+      
+      <div>
+        <label class="block text-sm font-medium mb-1">Name</label>
+        <input
+          type="text"
+          placeholder="Your name"
+          required
+          class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-black"
+        />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium mb-1">Phone Number</label>
+        <input
+          type="tel"
+          placeholder="Optional"
+          class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-black"
+        />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium mb-1">Email</label>
+        <input
+          type="email"
+          placeholder="you@example.com"
+          required
+          class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-black"
+        />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium mb-1">Message</label>
+        <textarea
+          rows="5"
+          placeholder="Your message"
+          class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-black"
+        ></textarea>
+      </div>
+
+      <button type="submit" class="w-full bg-black text-white py-3 rounded-full font-['Bodoni_Moda'] hover:bg-pink-100 transition">
+        Send Message
+      </button>
+
+    </form>
+  </section>
+
+</main>
+
+    
+
+    <!-- ============= FOOTER ============-->
+    <footer class="bg-black text-white py-14">
+        <div class="max-w-4xl mx-auto px-6 text-center space-y-6">
+
+            <!-- Page Links  -->
+            <nav class="flex flex-wrap justify-center gap-6 text-sm tracking-wide">
+                <a href="about.html" class="hover:text-pink-300 transition">About</a>
+                <a href="reflection.html" class="hover:text-pink-300 transition">Reflections</a>
+                <a href="developments.html" class="hover:text-pink-300 transition">Developments</a>
+                <a href="contact.html" class="hover:text-pink-300 transition">Contact</a>
+            </nav>
+
+            <!-- Social Icons -->
+            <div class="flex justify-center gap-6 text-xl">
+                <a href="https://github.com/mcastroal" aria-label="GitHub" class="hover:text-pink-300 transition">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/marilyn-castro-alonso-6873b8308" aria-label="LinkedIn" class="hover:text-pink-300 transition">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+
+            <!-- Copyright -->
+            <p class="text-xs text-gray-400">
+            © 2025 Marilyn Castro
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+</html>
+

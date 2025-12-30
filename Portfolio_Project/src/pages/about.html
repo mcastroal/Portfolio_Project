@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- FONTS-->
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tenor+Sans&display=swap" rel="stylesheet">
+  <!-- ICONS -->
+  <script src="https://kit.fontawesome.com/f2d7ca86d1.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-['Open_Sans']">
+    <!-- ============ NAV BAR =========== -->
+    <header>
+        <nav class="nav flex flex-col md:flex-row items-center justify-between px-4 md:px-8 py-4 bg-black gap-4">
+
+            <!-- Left: Name -->
+            <div class="nav__brand text-white wave-text text-xl font-['Bodoni_Moda']"><a href="index.html">MARILYN CASTRO</a></div>
+
+            <!-- Right: Nav Links-->
+            <ul class="nav__list flex flex-col md:flex-row gap-3 md:gap-4
+           border border-white rounded-xl md:rounded-full
+           px-4 py-3 md:px-6 md:py-2 text-center">
+
+                <li class="nav__item"><a href="about.html" class="nav__link text-white wave-text rounded">ABOUT ME</a></li>
+                <li class="nav__item"><a href="reflection.html" class="nav__link text-white wave-text">RELECTIONS</a></li>
+                <li class="nav__item"><a href="developments.html" class="nav__link text-white wave-text">DEVELOPMENTS</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link bg-white text-black px-2  rounded-full font-semibold wave-text">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12">
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mb-16">
+  
+        <!-- Text -->
+            <div>
+                <h1 class="text-3xl md:text-4xl font-semibold mb-2 pt-8">Hi, I’m Marilyn</h1>
+                <p class="text-lg text-gray-600 mb-4">Marine Corps Veteran • Cybersecurity & Software Development</p>
+                <p class="text-gray-700 leading-relaxed">
+                I’m a Marine Corps veteran and coding apprentice with a background in
+                cybersecurity and financial systems. I’m transitioning into tech with a
+                focus on building secure, reliable, and well-structured applications.
+                My experience has shaped a disciplined, detail-oriented approach to
+                problem-solving and continuous learning.</p>
+            </div>
+
+        <!-- Image -->
+            <div class="w-72 h-72 mx-auto rounded-full border-4 border-dotted border-black p-3 flex items-center justify-center">
+                <img src="../assets/Image_1.jpg" alt="Marilyn Castro" class="w-full h-full object-cover rounded-full"/>
+            </div>
+
+        </section>
+
+        <!-- CERT SECTION --> 
+        <section class="mb-16">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-8 font-['Bodoni_Moda']">Education & Certifications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
+             <!-- Card 1: Education -->
+                <div class="bg-pink-100 shadow-md rounded-lg p-6 flex flex-col gap-2 hover:shadow-lg transition">
+                    <h3 class="font-semibold text-lg">Associate of Science — Cybersecurity</h3>
+                    <p class="text-gray-600 text-sm">Southern New Hampshire University</p>
+                    <p class="text-gray-700 text-sm mt-2">
+                    Completed an Associate of Science degree with focus on cybersecurity fundamentals, risk assessment, and information security principles.
+                    </p>
+                </div>
+
+            <!-- Card 2: Apprenticeship -->
+                <div class="bg-pink-100 shadow-md rounded-lg p-6 flex flex-col gap-2 hover:shadow-lg transition">
+                    <h3 class="font-semibold text-lg">Coding Apprenticeship</h3>
+                    <p class="text-gray-600 text-sm">Road to Hire</p>
+                    <p class="text-gray-700 text-sm mt-2">
+                    Hands-on experience with JavaScript, Java, HTML/CSS, and responsive design while building real projects in a collaborative environment.
+                    </p>
+                </div>
+
+            <!-- Card 3: Certifications -->
+                <div class="bg-pink-100 shadow-md rounded-lg p-6 flex flex-col gap-2 hover:shadow-lg transition">
+                    <h3 class="font-semibold text-lg">Certifications</h3>
+                    <ul class="list-disc list-inside text-gray-700 text-sm mt-2 space-y-1">
+                        <li>DOD Financial Management Certification</li>
+                        <li>Networking Fundamentals (Marine Corps Training)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- TECHNICAL SECTION --> 
+        <section class="mb-16">
+            <h2 class="text-2xl font-semibold mb-6 font-['Bodoni_Moda']">Technical Skills</h2>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-4">
+                <div class="bg-white shadow-md rounded-lg p-4 flex items-center gap-3">
+                    <i class="fa-brands fa-js text-pink-300 text-xl"></i>
+                    <p class="font-medium">JavaScript</p>
+                </div>
+
+                <div class="bg-white shadow-md rounded-lg p-4 flex items-center gap-3">
+                    <i class="fa-brands fa-html5 text-pink-300 text-xl"></i>
+                    <p class="font-medium">HTML</p>
+                </div>
+
+                <div class="bg-white shadow-md rounded-lg p-4 flex items-center gap-3">
+                    <i class="fa-brands fa-css text-pink-300 text-xl"></i>
+                    <p class="font-medium">CSS</p>
+                </div>
+
+                <div class="bg-white shadow-md rounded-lg p-4 flex items-center gap-3">
+                    <i class="fa-brands fa-github text-pink-300 text-xl"></i>
+                    <p class="font-medium">GitHub</p>
+                </div>
+
+                <div class="bg-white shadow-md rounded-lg p-4 flex items-center gap-3">
+                    <i class="fa-brands fa-python text-pink-300 text-xl"></i>
+                    <p class="font-medium">Python</p>
+                </div>
+
+                <div class="bg-white shadow-md rounded-lg p-4 flex items-center gap-3">
+                    <i class="fa-brands fa-git text-pink-300 text-xl"></i>
+                    <p class="font-medium">Git</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- BACKGROUND SECTION --> 
+        <section class="mb-16">
+            <h2 class="text-2xl font-semibold mb-6 font-['Bodoni_Moda']">Background</h2>
+
+            <div class="space-y-6 text-gray-700 leading-relaxed">
+                <p>
+                I served three years in the United States Marine Corps as a financial
+                technician, where I managed, audited, and processed financial transactions
+                with accuracy and accountability. This role strengthened my analytical
+                thinking, attention to detail, and ability to operate under pressure.
+                </p>
+
+                <p>
+                After transitioning from the military, I pursued an Associate of Science
+                in Cybersecurity and began expanding my technical skill set through
+                hands-on coding projects and apprenticeships. I enjoy building things
+                from the ground up and understanding how systems work beneath the surface.
+                </p>
+            </div>
+        </section>
+
+        <!-- RESUME BUTTON --> 
+        <section class="text-center pb-8">
+            <a href="../assets/Technical Resume Marilyn Castro .pdf"
+            class="inline-block bg-black text-white px-8 py-3 rounded-full hover:bg-pink-100 hover:text-black transition font-['Bodoni_Moda']">
+            Download Resume
+            </a>
+        </section>
+
+    </main>
+
+
+    <!-- ============= FOOTER ============-->
+    <footer class="bg-black text-white py-14">
+        <div class="max-w-4xl mx-auto px-6 text-center space-y-6">
+
+            <!-- Page Links  -->
+            <nav class="flex flex-wrap justify-center gap-6 text-sm tracking-wide">
+                <a href="about.html" class="hover:text-pink-300 transition">About</a>
+                <a href="reflection.html" class="hover:text-pink-300 transition">Reflections</a>
+                <a href="developments.html" class="hover:text-pink-300 transition">Developments</a>
+                <a href="contact.html" class="hover:text-pink-300 transition">Contact</a>
+            </nav>
+
+             <!-- Social Icons -->
+            <div class="flex justify-center gap-6 text-xl">
+                <a href="https://github.com/mcastroal" aria-label="GitHub" class="hover:text-pink-300 transition">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/marilyn-castro-alonso-6873b8308" aria-label="LinkedIn" class="hover:text-pink-300 transition">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+
+            <!-- Copyright -->
+            <p class="text-xs text-gray-400">
+            © 2025 Marilyn Castro
+            </p>
+
+        </div>
+    </footer>
+
+
+
+</body>
+</html>

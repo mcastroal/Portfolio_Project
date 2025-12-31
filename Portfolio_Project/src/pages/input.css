@@ -45,26 +45,3 @@
 /* =============  =============*/
 
 
-/* ============= Grid =============*/
-.container {
-  display: grid;
-  grid-template-rows: 80vh min-content 40vw repeat(3,min-content);
-  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-sta] 1fr [center-start] repeat(8, [col-start] minmax(min-content,14rem)[col-end]) [center-end] 1fr [full-end];
-}
-
-.sidebar {
-  grid-column: sidebar-start / sidebar-end;
-  grid-row: 1 / -1;
-}
-
-.projects {
-  grid-column: center-start / center-end;
-}
-
-.headr {
-  grid-column: full-start / col-end 6;
-}
-
-.three_projects {
-  grid-column: col-start 7 / full-end;
-}
